@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="sty.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+  <header style="height: 100px;">
+
+    <div class="logo">
+      <h1 style="color: white; font-size: 25px;word-spacing: 10px; line-height: 80px;margin-top: 20px;">ONLINE LIBRARY
+        MANAGEMENT SYSTEM</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">BOOKS</a></li>
+        <li><a href="student_login.html">STUDENT-LOGIN</a></li>
+        <li><a href="registration.html">REGISTRATION</a></li>
+        <li><a href="">FEEDBACK</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="reg_img">
+      <img src="images/3.jpg">
+
+      <div class="box2">
+        <h1 style="text-align: center; font-size: 35px;font-family: Lucida Console;">DAFTAR MASUK</h1><br>
+        <form name="Registration" action="" method="">
+            <div class="dftr">
+              <form id="dftr" method="post" action="register.php">
+                <label><b>NAMA : </b></label><br>
+                <input type="text" name="Uname" id="Uname" placeholder="Nama">
+                <br><br>
+                <label><b>NO KAD PENGENALAN : </b></label>
+                <input type="Nokp" name="Nokp" id="Nokp" placeholder="000000-00-0000">
+                <br><br>
+                <label><b>KATA LALUAN : </b></label>
+                <input type="Password" name="Pass" id="Pass" require placeholder="Kata laluan">
+                <br><br>
+                <label><b>NO TELEFON : </b></label>
+                <input type="tel" name="Notel" id="notel" required placeholder="+60">
+                <br><br>
+                <label><b>NAMA WARIS : </b></label>
+                <input type="text" name="Wname" id="Wname" placeholder="Nama waris">
+                <br><br>
+                <label><b>NO TEL WARIS : </b></label>
+                <input type="tel" name="WnoTel" id="WnoTel" required placeholder="+60"">
+              <br><br>
+              <input type=" submit" name="sendform" id="rgis" value="DAFTAR MASUK">
+                <input type="reset" name="clearform" id="cancel" value="BATAL">
+                <br><br>
+                <a href="login.php"> Sudah mempunyai akaun ? Log masuk
+              </form>
+            </div>
+          </div>
+      </div>
+  </section>
+</body>

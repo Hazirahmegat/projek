@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>My Webpage</title>
 </head>
 
@@ -40,7 +41,7 @@
 			text-decoration: underline;
 			background-color: #ccc;
 			color: #333;
-			align: "left";
+			align: "right";
 		}
 		w3-dropdown-content w3-bar-block {
 
@@ -71,22 +72,16 @@
 		</nav>
 		<section>
 			<h2>SELAMAT DATANG KE PERPUSTAKAAN ELEKTRONIK KAMPUNG DESA PULAU PISANG</h2>
-			<img src="kpp.png">
-			<p>AHAD - KHAMIS 10.00pg - 6.00ptg</p><br>
-			<p>JUMAAT & SABTU TUTUP</p>
+			<div class="box">
+				<br><br><br><br>
+				<h1 style="text-align: center;font-size: 25px;">Buka </h1><br>
+				<h1 style="text-align: center;font-size: 25px;">Tutup Jumaat dan Sabtu  </h1><br>
+			</div>
 		</section>
 		<footer>
 			</header>
 
-			<div id="book">
-				<nav>
-					<a href="#main">Laman Utama</a>
-					<a href="#book">Buku</a>
-					<a href="#search">Carian</a>
-					<a href="#borrower">Peminjam</a>
-				</nav>
 			<p>&copy; 2023 My Webpage. All rights reserved.</p>
 		</footer>
-
 	</body>
 </html>

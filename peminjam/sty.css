@@ -1,4 +1,5 @@
 
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -100,7 +101,7 @@ vertical-align:middle;
 {
 	height: 660px;
 	width: 1350px;
-	/*background-color: red;*/
+	background-color: red;
 }
 header
 {
@@ -154,7 +155,7 @@ section .sec_img
 {
 	height: 550px;
 	margin-top: 0px;
-	background-image: url("images/1.jpg ");
+	background-image: url("images/1.jpg");
 }
 .box
 {
@@ -164,15 +165,15 @@ section .sec_img
 	margin: 70px auto;
 	opacity: .6;
 	color: white;
+	margin: auto;
 }
 
 /*--------------------------------st_login-----------------------------*/
 
 .log_img
 {
-	height: 800px;
-	width: 180%;
-	margin-top:auto;
+	height: 650px;
+	margin-top: 0px;
 	background-image: url("images/3.jpg");
 }
 .box1
@@ -180,11 +181,9 @@ section .sec_img
 	height: 350px;
 	width: 400px;
 	background-color: black;
-	margin: 40px auto;
-	opacity: .7;
+	margin: 70px auto;
 	color: white;
-	padding: 3px;
-
+	padding: 20px;
 }
 form .login
 {
@@ -201,7 +200,7 @@ input
 {
 	height: 630px;
 	margin-top: 0px;
-	background-image: url("images/4.png");
+	background-image: none;
 }
 .box2
 {
@@ -212,4 +211,5 @@ input
 	opacity: .7;
 	color: white;
 	padding: 20px;
+	margin: auto;
 }
